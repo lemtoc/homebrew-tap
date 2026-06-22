@@ -1,25 +1,25 @@
 class Awsctx < Formula
   desc "Switch AWS SSO profiles in the current shell"
   homepage "https://github.com/lemtoc/awsctx"
-  version "0.2.2"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.2/awsctx-aarch64-apple-darwin.tar.xz"
-      sha256 "4182d2b398ea0307200e5f4cf16c4e7144f4e76fdc3433a0b52cd5da37c93b82"
+      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.3/awsctx-aarch64-apple-darwin.tar.xz"
+      sha256 "8e400fe380a0f46815c24a428465f56e3599d8c251a27de3fd6a0cc922369def"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.2/awsctx-x86_64-apple-darwin.tar.xz"
-      sha256 "98117003aed7cc6bf0bee2b171c47956aec9bc9a9cd0ad8f12de0e56942575ae"
+      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.3/awsctx-x86_64-apple-darwin.tar.xz"
+      sha256 "6bf029cd28bf6f4e7e8b324c91efbf6277d25ec0e6661d7960ea17f283936fa5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.2/awsctx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "28f7e902ddd979fcd34b83ca2428b429e99609a668a314717dc9e8489e003f01"
+      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.3/awsctx-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0b77b4a5a178c0936548e8511387cd626ee6df8675776fc71aabbf640ae81da6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.2/awsctx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2098636bec3bd54a4854bbb650b314acfffdcf21b3a305746503677a4f51342c"
+      url "https://github.com/lemtoc/awsctx/releases/download/v0.2.3/awsctx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f4eefd5e4238a77ca7a7bca62149e53aad8169a0efe79fddb142e6ac2d3c26da"
     end
   end
   license "MIT"
